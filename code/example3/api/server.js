@@ -15,6 +15,13 @@ router.use('/api/fruits', fruitRoutes);
 // 1. Change route handler to return static folder
 
 // 2. Add route handler to catch all requests
+const publicFolder = path.resolve(__dirname, '../build');
+router.use(express.static(publicFolder));
+
+router.use('*', (req, res, next) => {
+  const indexFile = path.resolve(publicFolder, 'index.html')
+  res.sendFile(indexFile);
+});
 
 const server = http.createServer(router);
 

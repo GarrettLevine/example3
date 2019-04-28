@@ -13,6 +13,7 @@ class App extends Component {
       <Router>
         <Route exact path ='/' component={Dashboard} />
         <Route exact path ='/about' component={About} />
+        <Route path='/*' component={Dashboard} />
       </Router>
     );
   }
