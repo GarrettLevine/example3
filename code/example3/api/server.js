@@ -6,7 +6,7 @@ const http = require('http');
 
 const router = express();
 
-const PORT = 9090;
+const PORT = process.env.PORT || 9090;
 
 const { router: fruitRoutes } = require('./routes/fruits/fruitRoutes');
 
