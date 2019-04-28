@@ -1,1 +1,7 @@
-# con-ed-full-stack-student-notes-
+# Day 8
+
+## Outline
+
+## Resources
+
+### Docs
