@@ -4,6 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
+    "deploy": "node api.server.js",
     "start:client": "react-scripts start",
     "start:server": "nodemon api/server.js",
     "start:client": "react-scripts build",
