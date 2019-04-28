@@ -23,6 +23,9 @@
   "devDependencies": {
     "hackeryou-fullstack-react-scripts": "^2.3.0"
   },
+  "engines": {
+    "node": "10.3.0"
+  },
   "browserslist": [
     ">0.2%",
     "not dead",
